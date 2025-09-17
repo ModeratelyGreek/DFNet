@@ -1,5 +1,4 @@
 import torch
-import torch.nn as nn
 
 def rgb_to_yuv(image: torch.Tensor) -> torch.Tensor:
     r"""
