@@ -22,6 +22,7 @@ from models.rendering import render_path
 from models.nerfw import to8b
 from dataset_loaders.load_7Scenes import load_7Scenes_dataloader
 from dataset_loaders.load_Cambridge import load_Cambridge_dataloader
+from dataset_loaders.dronerace_scenes import DroneRace
 from utils.utils import freeze_bn_layer
 from feature.direct_feature_matching import train_feature_matching
 # import torch.onnx
