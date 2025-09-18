@@ -1,0 +1,13 @@
+############################################### NeRF-Hist training DroneRace ###############################################
+expname=nerfh
+basedir=../logs/dronerace
+datadir=../data/Cambridge/DroneRace
+dataset_type=DroneRace
+lrate_decay=5
+trainskip=1
+testskip=100
+df=4
+load_pose_avg_stats=False
+NeRFH=True
+encode_hist=True
+# render_test=True # add this for eval
