@@ -386,6 +386,11 @@ def render(H, W, focal, chunk=1024*32, rays=None, c2w=None, ndc=True,
         rays = torch.cat([rays, viewdirs], -1) # [1024, 11]
 
     # for NeRFW, we need to add frame index as input
+    if not isinstance(img_idx, torch.Tensor):
+        img_idx = torch.tensor([img_idx], dtype=torch.float32, device=rays.device)
+    elif img_idx.dim() == 0:  # scalar tensor
+        img_idx = img_idx.unsqueeze(0)
+    
     if img_idx.shape[0] != rays.shape[0]:
         img_idx = img_idx.repeat(rays.shape[0],1) # [1024, 1]
     rays = torch.cat([rays, img_idx], 1) # [1024, 12]
