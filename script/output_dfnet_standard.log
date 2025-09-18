@@ -1,0 +1,198 @@
+nohup: ignoring input
+/md127/home/UFAD/m.tomadakis/projects/Active/DFNet/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/md127/home/UFAD/m.tomadakis/projects/Active/DFNet/.venv/lib/python3.12/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=VGG16_Weights.IMAGENET1K_V1`. You can also use `weights=VGG16_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+Command Line Args:   --config config_dfnet_dronerace.txt
+Config File (config_dfnet_dronerace.txt):
+  model_name:        dfnet
+  basedir:           ../logs/dronerace_standard
+  expname:           nerfh
+  datadir:           ../data/Cambridge/DroneRace
+  dataset_type:      Cambridge
+  trainskip:         1
+  testskip:          39
+  df:                4
+  load_pose_avg_stats:False
+  NeRFH:             True
+  epochs:            2000
+  encode_hist:       True
+  tinyimg:           True
+  DFNet:             True
+  tripletloss:       True
+  featurenet_batch_size:4
+  random_view_synthesis:True
+  rvs_refresh_rate:  20
+  rvs_trans:         3
+  rvs_rotation:      7.5
+  d_max:             1
+Defaults:
+  --fff:             1
+  --places365_model_path:
+  --reduce_embedding:-1
+  --epochToMaxFreq:  -1
+  --train_local_nerf:-1
+  --i_eval:          20
+  --netdepth:        8
+  --netwidth:        128
+  --netdepth_fine:   8
+  --netwidth_fine:   128
+  --N_rand:          1536
+  --lrate:           0.0005
+  --lrate_decay:     250
+  --chunk:           32768
+  --netchunk:        65536
+  --N_vocab:         1000
+  --hist_bin:        10
+  --in_channels_a:   50
+  --in_channels_t:   20
+  --N_samples:       64
+  --N_importance:    64
+  --perturb:         1.0
+  --i_embed:         0
+  --multires:        10
+  --multires_views:  4
+  --raw_noise_std:   0.0
+  --render_factor:   0
+  --tinyscale:       4.0
+  --pose_only:       1
+  --learning_rate:   0.0001
+  --batch_size:      1
+  --pretrain_model_path:
+  --combine_loss_w:  [1, 1, 1]
+  --patience:        [200, 50]
+  --resize_factor:   2
+  --dropout:         0.5
+  --val_batch_size:  1
+  --mesh_grid_size:  80
+  --precrop_iters:   0
+  --precrop_frac:    0.5
+  --triplet_margin:  1.0
+  --factor:          8
+  --llffhold:        8
+  --i_print:         1
+  --i_img:           500
+  --i_weights:       200
+  --i_testset:       200
+  --i_video:         50000
+
+NEAR FAR 0.0 10.0
+Found ckpts []
+Not ndc!
+Begin
+TRAIN views are [  0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  16  17  18
+  19  20  21  22  23  24  25  26  27  28  29  31  32  33  34  35  36  37
+  38  39  40  41  42  43  44  46  47  48  49  50  51  52  53  54  55  57
+  58  59  60  61  62  63  64  65  67  70  71  72  73  74  75  76  77  79
+  80  81  83  84  85  86  87  88  89  90  91  92  93  94  96  97  98  99
+ 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 116 117 118
+ 119 120 121 122 123 124 125 126 127 129 130 131 132 133 134 135 136 137
+ 138 139 140 141 142 143 144 145 146 147 148 149 150 151 153 154 155 156
+ 157 159 160 161 162 163 164 166 167 168 169 170 172 173 174 176 177 179
+ 180 181 182 184 185 186 188 189 190 191 192 193 194 195 196 197 198 199
+ 200]
+TEST views are [   0   39   78  117  156  195  234  273  312  351  390  429  468  507
+  546  585  624  663  702  741  780  819  858  897  936  975 1014 1053
+ 1092 1131 1170 1209 1248 1287 1326 1365 1404 1443 1482 1521 1560 1599
+ 1638 1677 1716 1755 1794 1833 1872 1911 1950 1989 2028 2067 2106 2145
+ 2184 2223 2262 2301 2340 2379 2418 2457 2496 2535 2574 2613 2652 2691
+ 2730 2769 2808 2847 2886 2925 2964]
+VAL views are [ 95  15  30 158 128 115  69 171 175  45  66 183 165  78 187 178  56 152
+  82  68]
+/md127/home/UFAD/m.tomadakis/projects/Active/DFNet/.venv/lib/python3.12/site-packages/torch/__init__.py:1264: UserWarning: torch.set_default_tensor_type() is deprecated as of PyTorch 2.1, please use torch.set_default_dtype() and torch.set_default_device() as alternatives. (Triggered internally at /pytorch/torch/csrc/tensor/python_tensor.cpp:434.)
+  _C._set_default_tensor_type(t)
+renders 0/total 201
+renders 10/total 201
+renders 20/total 201
+renders 30/total 201
+renders 40/total 201
+renders 50/total 201
+renders 60/total 201
+renders 70/total 201
+renders 80/total 201
+renders 90/total 201
+renders 100/total 201
+renders 110/total 201
+renders 120/total 201
+renders 130/total 201
+renders 140/total 201
+renders 150/total 201
+renders 160/total 201
+renders 170/total 201
+renders 180/total 201
+renders 190/total 201
+renders 200/total 201
+
+[Aepochs:   0%|          | 0/2001 [00:00<?, ?it/s]
+[A                                                
+[Aepochs:   0%|          | 0/2001 [00:00<?, ?it/s]renders RVS...
+
+[A                                                
+[Aepochs:   0%|          | 0/2001 [00:30<?, ?it/s]
+Best val loss: 24.3533[AAt epoch      0 : train loss: 44.3977, val loss: 24.3533
+epochs:   0%|          | 1/2001 [00:32<18:06:44, 32.60s/it]Median error 16.016183853149414m and 111.10424041748047 degrees.
+Mean error 16.00953869386153m and 113.39574273840174 degrees.
+
+                      [A                                                           
+Best val loss: 24.3533[Aepochs:   0%|          | 1/2001 [00:45<18:06:44, 32.60s/it]
+Best val loss: 24.3533[Aepochs:   0%|          | 2/2001 [00:45<11:42:38, 21.09s/it]At epoch      1 : train loss: 40.8588, val loss: 24.6437
+
+                      [A                                                           
+Best val loss: 24.3533[Aepochs:   0%|          | 2/2001 [00:58<11:42:38, 21.09s/it]
+Best val loss: 24.3533[Aepochs:   0%|          | 3/2001 [00:58<9:40:35, 17.43s/it] At epoch      2 : train loss: 39.5598, val loss: 24.5146
+
+                      [A                                                          
+Best val loss: 24.3533[Aepochs:   0%|          | 3/2001 [01:11<9:40:35, 17.43s/it]
+Best val loss: 24.0300[Aepochs:   0%|          | 4/2001 [01:12<8:46:40, 15.82s/it]At epoch      3 : train loss: 37.9416, val loss: 24.0300
+
+                      [A                                                          
+Best val loss: 24.0300[Aepochs:   0%|          | 4/2001 [01:25<8:46:40, 15.82s/it]
+Best val loss: 23.0400[Aepochs:   0%|          | 5/2001 [01:25<8:16:54, 14.94s/it]At epoch      4 : train loss: 35.8801, val loss: 23.0400
+
+                      [A                                                          
+Best val loss: 23.0400[Aepochs:   0%|          | 5/2001 [01:38<8:16:54, 14.94s/it]
+Best val loss: 18.1910[Aepochs:   0%|          | 6/2001 [01:38<8:00:40, 14.46s/it]At epoch      5 : train loss: 33.3753, val loss: 18.1910
+
+                      [A                                                          
+Best val loss: 18.1910[Aepochs:   0%|          | 6/2001 [01:52<8:00:40, 14.46s/it]
+Best val loss: 13.9185[Aepochs:   0%|          | 7/2001 [01:52<7:49:00, 14.11s/it]At epoch      6 : train loss: 33.1718, val loss: 13.9185
+
+                      [A                                                          
+Best val loss: 13.9185[Aepochs:   0%|          | 7/2001 [02:05<7:49:00, 14.11s/it]
+Best val loss: 13.9185[Aepochs:   0%|          | 8/2001 [02:05<7:42:34, 13.93s/it]At epoch      7 : train loss: 31.1825, val loss: 16.6616
+
+                      [A                                                          
+Best val loss: 13.9185[Aepochs:   0%|          | 8/2001 [02:19<7:42:34, 13.93s/it]
+Best val loss: 13.9185[Aepochs:   0%|          | 9/2001 [02:19<7:38:42, 13.82s/it]At epoch      8 : train loss: 30.1550, val loss: 17.8259
+
+                      [A                                                          
+Best val loss: 13.9185[Aepochs:   0%|          | 9/2001 [02:32<7:38:42, 13.82s/it]
+Best val loss: 13.5075[Aepochs:   0%|          | 10/2001 [02:33<7:36:12, 13.75s/it]At epoch      9 : train loss: 30.1561, val loss: 13.5075
+
+                      [A                                                           
+Best val loss: 13.5075[Aepochs:   0%|          | 10/2001 [02:46<7:36:12, 13.75s/it]
+Best val loss: 13.5075[Aepochs:   1%|          | 11/2001 [02:46<7:34:49, 13.71s/it]At epoch     10 : train loss: 30.0494, val loss: 17.5339
+
+                      [A                                                           
+Best val loss: 13.5075[Aepochs:   1%|          | 11/2001 [03:00<7:34:49, 13.71s/it]
+Best val loss: 13.5075[Aepochs:   1%|          | 12/2001 [03:00<7:32:11, 13.64s/it]At epoch     11 : train loss: 29.6063, val loss: 18.1196
+
+                      [A                                                           
+Best val loss: 13.5075[Aepochs:   1%|          | 12/2001 [03:13<7:32:11, 13.64s/it]
+Best val loss: 13.5075[Aepochs:   1%|          | 13/2001 [03:13<7:30:08, 13.59s/it]At epoch     12 : train loss: 29.0687, val loss: 15.0594
+
+                      [A                                                           
+Best val loss: 13.5075[Aepochs:   1%|          | 13/2001 [03:26<7:30:08, 13.59s/it]
+Best val loss: 13.5075[Aepochs:   1%|          | 14/2001 [03:26<7:27:20, 13.51s/it]At epoch     13 : train loss: 29.8892, val loss: 14.6122
+
+                      [A                                                           
+Best val loss: 13.5075[Aepochs:   1%|          | 14/2001 [03:40<7:27:20, 13.51s/it]
+Best val loss: 13.5075[Aepochs:   1%|          | 15/2001 [03:40<7:25:05, 13.45s/it]At epoch     14 : train loss: 28.9767, val loss: 15.5650
+
+                      [A                                                           
+Best val loss: 13.5075[Aepochs:   1%|          | 15/2001 [03:53<7:25:05, 13.45s/it]
+Best val loss: 13.5075[Aepochs:   1%|          | 16/2001 [03:53<7:22:51, 13.39s/it]At epoch     15 : train loss: 28.6825, val loss: 15.4635
+
+                      [A                                                           
+Best val loss: 13.5075[Aepochs:   1%|          | 16/2001 [04:07<7:22:51, 13.39s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 17/2001 [04:07<7:24:48, 13.45s/it]
