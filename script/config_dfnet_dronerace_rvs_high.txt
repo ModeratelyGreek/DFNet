@@ -1,0 +1,24 @@
+############################################### DFNet training DroneRace RVS High ###############################################
+model_name=dfnet
+basedir=../logs/dronerace_rvs_high
+expname=nerfh_rvs_high
+datadir=../data/Cambridge/DroneRace
+dataset_type=Cambridge
+trainskip=1 # train
+testskip=39 # train
+df=4
+load_pose_avg_stats=False
+NeRFH=True
+epochs=2000
+encode_hist=True
+tinyimg=True
+DFNet=True
+tripletloss=True
+featurenet_batch_size=4 # batch size, 4 or 8
+random_view_synthesis=True
+rvs_refresh_rate=20
+rvs_trans=15
+rvs_rotation=180
+d_max=1
+# pretrain_model_path = ../logs/dronerace/dfnet/checkpoint-0604-0.2688.pt # add your trained model for eval
+# eval=True # add this for eval
