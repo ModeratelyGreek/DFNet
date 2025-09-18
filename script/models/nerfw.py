@@ -223,7 +223,7 @@ class NeRFW(nn.Module):
                  in_channels_xyz=63, in_channels_dir=27,
                  encode_appearance=False, in_channels_a=48,
                  encode_transient=False, in_channels_t=16,
-                 beta_min=0.1, out_ch_size=3):
+                 beta_min=0.1, out_ch_size=3, hist_bin=1):
         """
         ---Parameters for the original NeRF---
         D: number of layers for density (sigma) encoder
@@ -240,6 +240,7 @@ class NeRFW(nn.Module):
         encode_transient: whether to add transient encoding as input (NeRF-U)
         in_channels_t: transient embedding dimension. n^(tau) in the paper
         beta_min: minimum pixel color variance
+        hist_bin: histogram bin count for histogram encoding
         """
         super().__init__()
         torch.manual_seed(0)
@@ -254,6 +255,7 @@ class NeRFW(nn.Module):
         self.encode_transient = False if typ=='coarse' else encode_transient
         self.in_channels_t = in_channels_t
         self.beta_min = beta_min
+        self.hist_bin = hist_bin
 
         # xyz encoding layers
         for i in range(D):
@@ -315,14 +317,36 @@ class NeRFW(nn.Module):
         if sigma_only:
             input_xyz = x
         elif output_transient:
-            input_xyz, input_dir_a, input_t = \
-                torch.split(x, [self.in_channels_xyz,
-                                self.in_channels_dir+self.in_channels_a,
-                                self.in_channels_t], dim=-1)
+            # Calculate actual dimensions accounting for histogram encoding
+            actual_xyz = self.in_channels_xyz
+            actual_dir = self.in_channels_dir  # direction embedding not histogram scaled
+            actual_a = self.in_channels_a * (self.hist_bin if hasattr(self, 'hist_bin') and self.hist_bin > 1 else 1)
+            actual_t = self.in_channels_t * (self.hist_bin if hasattr(self, 'hist_bin') and self.hist_bin > 1 else 1)
+            
+            input_xyz, input_dir, input_a, input_t = torch.split(x, [actual_xyz, actual_dir, actual_a, actual_t], dim=-1)
+            
+            # For compatibility with pre-trained models, use only original embedding sizes
+            # The histogram encoding provides richer features but the model expects base dimensions
+            if actual_a > self.in_channels_a:
+                input_a = input_a[..., :self.in_channels_a]  # Take only first N_a features
+            if actual_t > self.in_channels_t:
+                input_t = input_t[..., :self.in_channels_t]  # Take only first N_t features
+                
+            input_dir_a = torch.cat([input_dir, input_a], dim=-1)
         else:
-            input_xyz, input_dir_a = \
-                torch.split(x, [self.in_channels_xyz,
-                                self.in_channels_dir+self.in_channels_a], dim=-1)
+            # Calculate actual dimensions accounting for histogram encoding  
+            actual_xyz = self.in_channels_xyz
+            actual_dir = self.in_channels_dir  # direction embedding not histogram scaled
+            actual_a = self.in_channels_a * (self.hist_bin if hasattr(self, 'hist_bin') and self.hist_bin > 1 else 1)
+            
+            input_xyz, input_dir, input_a = \
+                torch.split(x, [actual_xyz, actual_dir, actual_a], dim=-1)
+            
+            # For compatibility with pre-trained models, use only original embedding sizes
+            if actual_a > self.in_channels_a:
+                input_a = input_a[..., :self.in_channels_a]  # Take only first N_a features
+                
+            input_dir_a = torch.cat([input_dir, input_a], dim=-1)
         xyz_ = input_xyz
         for i in range(self.D):
             if i in self.skips:
@@ -409,7 +433,8 @@ def create_nerf(args):
             model_fine = NeRFW('fine', D=args.netdepth, W=args.netwidth, skips=skips, 
                 in_channels_xyz=input_ch, in_channels_dir=input_ch_views,
                 encode_appearance=True, encode_transient=True,
-                in_channels_a=args.in_channels_a, in_channels_t=args.in_channels_t)
+                in_channels_a=args.in_channels_a, in_channels_t=args.in_channels_t,
+                hist_bin=args.hist_bin if args.encode_hist else 1)
         else:
             model_fine = NeRF(D=args.netdepth_fine, W=args.netwidth_fine, input_ch=input_ch, output_ch=output_ch, skips=skips,
                           input_ch_views=input_ch_views, use_viewdirs=args.use_viewdirs)
