@@ -5,8 +5,8 @@ from torch import nn, optim
 from torchvision.utils import save_image
 import os, pdb
 from torchsummary import summary
-from dataset_loaders.load_7Scenes import load_7Scenes_dataloader
 from dataset_loaders.load_Cambridge import load_Cambridge_dataloader
+from dataset_loaders.dronerace_scenes import DroneRace
 import os.path as osp
 import numpy as np
 from utils.utils import plot_features, save_image_saliancy, save_image_saliancy_single
@@ -250,7 +250,7 @@ def train_feature(args, train_dl, val_dl, test_dl, hwf, i_split, near, far):
 
     # set optimizer
     optimizer = optim.Adam(feat_model.parameters(), lr=args.learning_rate)
-    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.95, patience=args.patience[1], verbose=True)
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.95, patience=args.patience[1])
 
     # set callbacks parameters
     early_stopping = EarlyStopping(args, patience=args.patience[0], verbose=False)
@@ -437,6 +437,17 @@ def train():
 
     elif args.dataset_type == 'Cambridge':
 
+        train_dl, val_dl, test_dl, hwf, i_split, near, far = load_Cambridge_dataloader(args)
+        near = near
+        far = far
+
+        print('NEAR FAR', near, far)
+        train_feature(args, train_dl, val_dl, test_dl, hwf, i_split, near, far)
+        return
+
+    elif args.dataset_type == 'DroneRace':
+
+        # Use Cambridge loader but with DroneRace data
         train_dl, val_dl, test_dl, hwf, i_split, near, far = load_Cambridge_dataloader(args)
         near = near
         far = far
