@@ -1,0 +1,27 @@
+############################################### DFNet_dm training DroneRace ###############################################
+model_name=dfnetdm
+expname=nerfh
+basedir=../logs/dronerace # change this if change scenes
+datadir=../data/Cambridge/DroneRace # change this if change scenes
+dataset_type=DroneRace
+pretrain_model_path=../logs/dronerace/dfnet/checkpoint-XXXX-X.XXXX.pt # this is your trained dfnet model for pose regression
+pretrain_featurenet_path=../logs/dronerace/dfnet/checkpoint-XXXX-X.XXXX.pt # this is your trained dfnet model for feature extraction
+trainskip=2 # train
+testskip=1 # train
+df=2
+load_pose_avg_stats=False
+NeRFH=True
+encode_hist=True
+freezeBN=True
+featuremetric=True
+pose_only=3
+svd_reg=True
+combine_loss = True
+combine_loss_w = [0., 0., 1.]
+finetune_unlabel=True
+i_eval=20
+DFNet=True
+val_on_psnr=True
+feature_matching_lvl = [0]
+# eval=True # add this for eval
+# pretrain_model_path=../logs/dronerace/dfnetdm/checkpoint-XXXX-X.XXXX.pt # add the trained model for eval
