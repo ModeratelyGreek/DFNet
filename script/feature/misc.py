@@ -23,28 +23,28 @@ trans_t = lambda t : np.array([
     [1,0,0,0],
     [0,1,0,0],
     [0,0,1,t],
-    [0,0,0,1]], dtype=np.float)
+    [0,0,0,1]], dtype=np.float64)
 
 # x rotation
 rot_phi = lambda phi : np.array([
     [1,0,0,0],
     [0,np.cos(phi),-np.sin(phi),0],
     [0,np.sin(phi), np.cos(phi),0],
-    [0,0,0,1]], dtype=np.float)
+    [0,0,0,1]], dtype=np.float64)
 
 # y rotation
 rot_theta = lambda th : np.array([
     [np.cos(th),0,-np.sin(th),0],
     [0,1,0,0],
     [np.sin(th),0, np.cos(th),0],
-    [0,0,0,1]], dtype=np.float)
+    [0,0,0,1]], dtype=np.float64)
 
 # z rotation
 rot_psi = lambda psi : np.array([
     [np.cos(psi),-np.sin(psi),0,0],
     [np.sin(psi),np.cos(psi),0,0],
     [0,0,1,0],
-    [0,0,0,1]], dtype=np.float)
+    [0,0,0,1]], dtype=np.float64)
 
 def compute_error_in_q(args, dl, model, device, results, batch_size=1):
     use_SVD=True # Turn on for Direct-PN and Direct-PN+U reported result, despite it makes minuscule differences
