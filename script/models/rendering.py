@@ -8,6 +8,7 @@ import time
 import math
 from tqdm import tqdm, trange
 from models.ray_utils import *
+from models.nerf import get_model_attr
 from models.nerf import img2mse, mse2psnr,to8b
 from einops import rearrange, reduce, repeat
 import pdb
@@ -312,8 +313,9 @@ def render_rays(ray_batch,
         else:
             raw = network_query_fn(pts, viewdirs, img_idxs, network_fine, 'fine', embedding_a, embedding_t, output_transient, test_time=test_time)
 
-
-        rgb_map, disp_map, acc_map, weights, depth_map, transient_sigmas, beta = raw2outputs_NeRFW(raw, z_vals, rays_d, raw_noise_std, output_transient, network_fine.beta_min, white_bkgd, test_time, typ="fine")
+        # Use helper function to access beta_min from DataParallel-wrapped model
+        beta_min = get_model_attr(network_fine, 'beta_min')
+        rgb_map, disp_map, acc_map, weights, depth_map, transient_sigmas, beta = raw2outputs_NeRFW(raw, z_vals, rays_d, raw_noise_std, output_transient, beta_min, white_bkgd, test_time, typ="fine")
 
     ret = {'rgb_map' : rgb_map, 'disp_map' : disp_map, 'acc_map' : acc_map}
     if retraw:

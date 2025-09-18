@@ -10,6 +10,13 @@ img2mse = lambda x, y : torch.mean((x - y) ** 2)
 mse2psnr = lambda x : -10. * torch.log(x) / torch.log(torch.Tensor([10.]))
 to8b = lambda x : (255*np.clip(x,0,1)).astype(np.uint8)
 
+def get_model_attr(model, attr_name):
+    """Get attribute from model, handling DataParallel wrapper"""
+    if hasattr(model, 'module'):
+        return getattr(model.module, attr_name)
+    else:
+        return getattr(model, attr_name)
+
 def batchify(fn, chunk):
     """Constructs a version of 'fn' that applies to smaller batches.
     """
@@ -291,6 +298,7 @@ def create_nerf(args):
                           input_ch_views=input_ch_views, use_viewdirs=args.use_viewdirs)
     device = torch.device("cuda")
     if args.multi_gpu:
+        print("Multi GPUS! 🤞")
         model = torch.nn.DataParallel(model).to(device)
     else:
         model = model.to(device)
