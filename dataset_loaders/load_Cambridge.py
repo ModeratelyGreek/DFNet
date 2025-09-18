@@ -394,9 +394,19 @@ def load_Cambridge_dataloader(args):
         val_set = Cambridge2(train=False, testskip=args.testskip, **kwargs)
     L = len(train_set)
 
-    i_train = train_set.gt_idx
-    i_val = val_set.gt_idx
-    i_test = val_set.gt_idx
+    # Create proper train/validation split from training data
+    # Use 10% of training views for validation, rest for training
+    np.random.seed(42)  # For reproducible splits
+    all_train_idx = train_set.gt_idx
+    n_val = max(1, int(len(all_train_idx) * 0.1))  # At least 1 validation sample
+    
+    # Randomly select validation indices from training set
+    val_indices = np.random.choice(len(all_train_idx), n_val, replace=False)
+    train_indices = np.setdiff1d(np.arange(len(all_train_idx)), val_indices)
+    
+    i_train = all_train_idx[train_indices]  # 90% of original training data
+    i_val = all_train_idx[val_indices]      # 10% of original training data
+    i_test = val_set.gt_idx                 # Keep original test set
     # use a pose average stats computed earlier to unify posenet and nerf training
     if args.save_pose_avg_stats or args.load_pose_avg_stats:
         pose_avg_stats_file = osp.join(args.datadir, 'pose_avg_stats.txt')
