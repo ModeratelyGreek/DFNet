@@ -14,8 +14,8 @@ from models.ray_utils import *
 from models.nerfw import * # NeRF-w and NeRF-hist
 from models.options import config_parser
 from models.rendering import *
-from dataset_loaders.load_7Scenes import load_7Scenes_dataloader_NeRF
 from dataset_loaders.load_Cambridge import load_Cambridge_dataloader_NeRF
+from dataset_loaders.dronerace_scenes import load_DroneRace_dataloader_NeRF
 
 # losses
 from models.losses import loss_dict
@@ -243,10 +243,9 @@ def train():
 
     print(parser.format_values())
 
-    # Load data
-    if args.dataset_type == '7Scenes':
+    if args.dataset_type == 'Cambridge':
 
-        train_dl, val_dl, hwf, i_split, bds, render_poses, render_img = load_7Scenes_dataloader_NeRF(args)
+        train_dl, val_dl, hwf, i_split, bds, render_poses, render_img = load_Cambridge_dataloader_NeRF(args)
         near = bds[0]
         far = bds[1]
 
@@ -254,9 +253,9 @@ def train():
         train_nerf(args, train_dl, val_dl, hwf, i_split, near, far, render_poses, render_img)
         return
 
-    elif args.dataset_type == 'Cambridge':
+    elif args.dataset_type == 'DroneRace':
 
-        train_dl, val_dl, hwf, i_split, bds, render_poses, render_img = load_Cambridge_dataloader_NeRF(args)
+        train_dl, val_dl, hwf, i_split, bds, render_poses, render_img = load_DroneRace_dataloader_NeRF(args)
         near = bds[0]
         far = bds[1]
 
