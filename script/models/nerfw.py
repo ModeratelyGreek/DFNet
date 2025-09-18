@@ -383,11 +383,11 @@ def create_nerf(args):
     encode_t = True # transient
     if encode_a:
         if args.encode_hist: # experiemental embedding histogram
-            embedding_a = torch.nn.Embedding(args.N_vocab, 5)
+            embedding_a = torch.nn.Embedding(args.N_vocab, args.in_channels_a)
         embedding_a = embedding_a.to(device)
     if encode_t:
         if args.encode_hist: # experiemental embedding histogram
-            embedding_t = torch.nn.Embedding(args.N_vocab, 2)
+            embedding_t = torch.nn.Embedding(args.N_vocab, args.in_channels_t)
         embedding_t = embedding_t.to(device)
 
     # initialize NeRF model
