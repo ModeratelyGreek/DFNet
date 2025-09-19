@@ -195,4 +195,856 @@ Mean error 16.00953869386153m and 113.39574273840174 degrees.
 
                       [A                                                           
 Best val loss: 13.5075[Aepochs:   1%|          | 16/2001 [04:07<7:22:51, 13.39s/it]
-Best val loss: 13.0531[Aepochs:   1%|          | 17/2001 [04:07<7:24:48, 13.45s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 17/2001 [04:07<7:24:48, 13.45s/it]At epoch     16 : train loss: 27.8012, val loss: 13.0531
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 17/2001 [04:20<7:24:48, 13.45s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 18/2001 [04:20<7:23:35, 13.42s/it]At epoch     17 : train loss: 29.0832, val loss: 14.8282
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 18/2001 [04:33<7:23:35, 13.42s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 19/2001 [04:33<7:21:59, 13.38s/it]At epoch     18 : train loss: 27.4980, val loss: 14.8565
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 19/2001 [04:47<7:21:59, 13.38s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 20/2001 [04:47<7:22:13, 13.39s/it]
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 20/2001 [04:47<7:22:13, 13.39s/it]At epoch     19 : train loss: 27.8254, val loss: 15.5483
+renders RVS...
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 20/2001 [05:17<7:22:13, 13.39s/it]
+Best val loss: 13.0531[AAt epoch     20 : train loss: 26.9963, val loss: 16.6204
+epochs:   1%|          | 21/2001 [05:19<10:32:46, 19.17s/it]Median error 12.09852123260498m and 100.47323608398438 degrees.
+Mean error 12.483578914171689m and 101.67339057426948 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   1%|          | 21/2001 [05:33<10:32:46, 19.17s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 22/2001 [05:33<9:35:25, 17.45s/it] At epoch     21 : train loss: 28.7967, val loss: 14.2501
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 22/2001 [05:46<9:35:25, 17.45s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 23/2001 [05:46<8:54:29, 16.21s/it]At epoch     22 : train loss: 27.4738, val loss: 15.9067
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 23/2001 [05:59<8:54:29, 16.21s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 24/2001 [05:59<8:26:23, 15.37s/it]At epoch     23 : train loss: 26.9439, val loss: 14.4887
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 24/2001 [06:13<8:26:23, 15.37s/it]
+Best val loss: 13.0531[Aepochs:   1%|          | 25/2001 [06:13<8:05:04, 14.73s/it]At epoch     24 : train loss: 26.3241, val loss: 16.6533
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|          | 25/2001 [06:26<8:05:04, 14.73s/it]
+Best val loss: 13.0531[Aepochs:   1%|▏         | 26/2001 [06:26<7:50:58, 14.31s/it]At epoch     25 : train loss: 26.7749, val loss: 16.9869
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|▏         | 26/2001 [06:39<7:50:58, 14.31s/it]
+Best val loss: 13.0531[Aepochs:   1%|▏         | 27/2001 [06:39<7:40:10, 13.99s/it]At epoch     26 : train loss: 26.6927, val loss: 15.6892
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|▏         | 27/2001 [06:53<7:40:10, 13.99s/it]
+Best val loss: 13.0531[Aepochs:   1%|▏         | 28/2001 [06:53<7:32:32, 13.76s/it]At epoch     27 : train loss: 24.8325, val loss: 15.0444
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|▏         | 28/2001 [07:06<7:32:32, 13.76s/it]
+Best val loss: 13.0531[Aepochs:   1%|▏         | 29/2001 [07:06<7:27:26, 13.61s/it]At epoch     28 : train loss: 26.4524, val loss: 14.9023
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|▏         | 29/2001 [07:19<7:27:26, 13.61s/it]
+Best val loss: 13.0531[Aepochs:   1%|▏         | 30/2001 [07:19<7:24:00, 13.52s/it]At epoch     29 : train loss: 25.7139, val loss: 15.3137
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   1%|▏         | 30/2001 [07:32<7:24:00, 13.52s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 31/2001 [07:32<7:21:47, 13.46s/it]At epoch     30 : train loss: 26.9366, val loss: 14.2575
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 31/2001 [07:46<7:21:47, 13.46s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 32/2001 [07:46<7:20:15, 13.42s/it]At epoch     31 : train loss: 25.4704, val loss: 14.7772
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 32/2001 [07:59<7:20:15, 13.42s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 33/2001 [07:59<7:18:48, 13.38s/it]At epoch     32 : train loss: 24.6080, val loss: 15.7013
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 33/2001 [08:12<7:18:48, 13.38s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 34/2001 [08:12<7:17:46, 13.35s/it]At epoch     33 : train loss: 25.8651, val loss: 15.7303
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 34/2001 [08:26<7:17:46, 13.35s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 35/2001 [08:26<7:16:37, 13.33s/it]At epoch     34 : train loss: 24.8729, val loss: 15.1434
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 35/2001 [08:39<7:16:37, 13.33s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 36/2001 [08:39<7:16:16, 13.32s/it]At epoch     35 : train loss: 24.1666, val loss: 17.1936
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 36/2001 [08:52<7:16:16, 13.32s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 37/2001 [08:52<7:15:37, 13.31s/it]At epoch     36 : train loss: 24.1513, val loss: 14.1134
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 37/2001 [09:06<7:15:37, 13.31s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 38/2001 [09:06<7:18:17, 13.40s/it]At epoch     37 : train loss: 23.9887, val loss: 15.7923
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 38/2001 [09:19<7:18:17, 13.40s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 39/2001 [09:19<7:19:08, 13.43s/it]At epoch     38 : train loss: 22.6087, val loss: 15.2916
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 39/2001 [09:32<7:19:08, 13.43s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 40/2001 [09:32<7:16:57, 13.37s/it]
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 40/2001 [09:33<7:16:57, 13.37s/it]At epoch     39 : train loss: 21.0686, val loss: 15.9932
+renders RVS...
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 40/2001 [10:03<7:16:57, 13.37s/it]
+Best val loss: 13.0531[AAt epoch     40 : train loss: 22.3672, val loss: 13.9314
+epochs:   2%|▏         | 41/2001 [10:05<10:27:54, 19.22s/it]Median error 11.371155738830566m and 95.20643615722656 degrees.
+Mean error 11.726085540536163m and 96.57925090542088 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   2%|▏         | 41/2001 [10:19<10:27:54, 19.22s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 42/2001 [10:19<9:29:51, 17.45s/it] At epoch     41 : train loss: 22.5711, val loss: 16.5627
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 42/2001 [10:32<9:29:51, 17.45s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 43/2001 [10:32<8:49:00, 16.21s/it]At epoch     42 : train loss: 21.6307, val loss: 15.2222
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 43/2001 [10:45<8:49:00, 16.21s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 44/2001 [10:45<8:21:34, 15.38s/it]At epoch     43 : train loss: 20.8767, val loss: 17.1122
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 44/2001 [10:59<8:21:34, 15.38s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 45/2001 [10:59<8:02:54, 14.81s/it]At epoch     44 : train loss: 21.0306, val loss: 16.1688
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 45/2001 [11:12<8:02:54, 14.81s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 46/2001 [11:12<7:47:41, 14.35s/it]At epoch     45 : train loss: 20.3947, val loss: 16.0250
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 46/2001 [11:26<7:47:41, 14.35s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 47/2001 [11:26<7:39:47, 14.12s/it]At epoch     46 : train loss: 20.4391, val loss: 16.5144
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 47/2001 [11:39<7:39:47, 14.12s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 48/2001 [11:39<7:32:24, 13.90s/it]At epoch     47 : train loss: 19.3199, val loss: 16.3206
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 48/2001 [11:52<7:32:24, 13.90s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 49/2001 [11:52<7:26:13, 13.72s/it]At epoch     48 : train loss: 19.6739, val loss: 15.8863
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 49/2001 [12:06<7:26:13, 13.72s/it]
+Best val loss: 13.0531[Aepochs:   2%|▏         | 50/2001 [12:06<7:22:10, 13.60s/it]At epoch     49 : train loss: 18.3399, val loss: 15.6819
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   2%|▏         | 50/2001 [12:19<7:22:10, 13.60s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 51/2001 [12:19<7:19:15, 13.52s/it]At epoch     50 : train loss: 19.4363, val loss: 13.2914
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 51/2001 [12:32<7:19:15, 13.52s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 52/2001 [12:32<7:17:39, 13.47s/it]At epoch     51 : train loss: 18.4828, val loss: 14.9512
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 52/2001 [12:46<7:17:39, 13.47s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 53/2001 [12:46<7:16:19, 13.44s/it]At epoch     52 : train loss: 18.0081, val loss: 16.8681
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 53/2001 [12:59<7:16:19, 13.44s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 54/2001 [12:59<7:16:33, 13.45s/it]At epoch     53 : train loss: 18.6517, val loss: 17.7256
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 54/2001 [13:13<7:16:33, 13.45s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 55/2001 [13:13<7:16:48, 13.47s/it]At epoch     54 : train loss: 18.5378, val loss: 16.8048
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 55/2001 [13:26<7:16:48, 13.47s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 56/2001 [13:26<7:16:19, 13.46s/it]At epoch     55 : train loss: 16.6268, val loss: 16.8315
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 56/2001 [13:39<7:16:19, 13.46s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 57/2001 [13:39<7:13:47, 13.39s/it]At epoch     56 : train loss: 17.6053, val loss: 17.3254
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 57/2001 [13:53<7:13:47, 13.39s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 58/2001 [13:53<7:14:45, 13.43s/it]At epoch     57 : train loss: 17.3025, val loss: 16.3392
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 58/2001 [14:07<7:14:45, 13.43s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 59/2001 [14:07<7:16:13, 13.48s/it]At epoch     58 : train loss: 17.5329, val loss: 15.1171
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 59/2001 [14:20<7:16:13, 13.48s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 60/2001 [14:20<7:14:16, 13.42s/it]
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 60/2001 [14:20<7:14:16, 13.42s/it]At epoch     59 : train loss: 16.6223, val loss: 17.3178
+renders RVS...
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 60/2001 [14:50<7:14:16, 13.42s/it]
+Best val loss: 13.0531[AAt epoch     60 : train loss: 16.8985, val loss: 15.9054
+epochs:   3%|▎         | 61/2001 [14:52<10:19:50, 19.17s/it]Median error 11.960901260375977m and 91.22001647949219 degrees.
+Mean error 12.316207936831884m and 97.18754339837409 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   3%|▎         | 61/2001 [15:06<10:19:50, 19.17s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 62/2001 [15:06<9:24:30, 17.47s/it] At epoch     61 : train loss: 16.6601, val loss: 14.8643
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 62/2001 [15:19<9:24:30, 17.47s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 63/2001 [15:19<8:44:19, 16.23s/it]At epoch     62 : train loss: 15.6519, val loss: 17.5293
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 63/2001 [15:33<8:44:19, 16.23s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 64/2001 [15:33<8:15:59, 15.36s/it]At epoch     63 : train loss: 15.5936, val loss: 16.3545
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 64/2001 [15:46<8:15:59, 15.36s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 65/2001 [15:46<7:55:54, 14.75s/it]At epoch     64 : train loss: 14.9683, val loss: 14.8546
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 65/2001 [15:59<7:55:54, 14.75s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 66/2001 [15:59<7:42:33, 14.34s/it]At epoch     65 : train loss: 15.4638, val loss: 17.2996
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 66/2001 [16:13<7:42:33, 14.34s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 67/2001 [16:13<7:34:54, 14.11s/it]At epoch     66 : train loss: 15.6119, val loss: 16.0173
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 67/2001 [16:26<7:34:54, 14.11s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 68/2001 [16:26<7:27:33, 13.89s/it]At epoch     67 : train loss: 14.7635, val loss: 16.6840
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 68/2001 [16:40<7:27:33, 13.89s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 69/2001 [16:40<7:21:41, 13.72s/it]At epoch     68 : train loss: 14.8641, val loss: 14.8173
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 69/2001 [16:53<7:21:41, 13.72s/it]
+Best val loss: 13.0531[Aepochs:   3%|▎         | 70/2001 [16:53<7:16:57, 13.58s/it]At epoch     69 : train loss: 13.4240, val loss: 16.4757
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   3%|▎         | 70/2001 [17:06<7:16:57, 13.58s/it]
+Best val loss: 13.0531[Aepochs:   4%|▎         | 71/2001 [17:06<7:14:50, 13.52s/it]At epoch     70 : train loss: 12.2992, val loss: 19.7448
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▎         | 71/2001 [17:20<7:14:50, 13.52s/it]
+Best val loss: 13.0531[Aepochs:   4%|▎         | 72/2001 [17:20<7:13:04, 13.47s/it]At epoch     71 : train loss: 11.9726, val loss: 17.0105
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▎         | 72/2001 [17:33<7:13:04, 13.47s/it]
+Best val loss: 13.0531[Aepochs:   4%|▎         | 73/2001 [17:33<7:11:14, 13.42s/it]At epoch     72 : train loss: 13.1835, val loss: 17.0619
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▎         | 73/2001 [17:46<7:11:14, 13.42s/it]
+Best val loss: 13.0531[Aepochs:   4%|▎         | 74/2001 [17:46<7:09:41, 13.38s/it]At epoch     73 : train loss: 14.4700, val loss: 16.5083
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▎         | 74/2001 [18:00<7:09:41, 13.38s/it]
+Best val loss: 13.0531[Aepochs:   4%|▎         | 75/2001 [18:00<7:08:49, 13.36s/it]At epoch     74 : train loss: 13.1664, val loss: 15.1287
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▎         | 75/2001 [18:13<7:08:49, 13.36s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 76/2001 [18:13<7:08:36, 13.36s/it]At epoch     75 : train loss: 12.7315, val loss: 17.4724
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 76/2001 [18:26<7:08:36, 13.36s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 77/2001 [18:26<7:07:15, 13.32s/it]At epoch     76 : train loss: 11.6530, val loss: 16.0690
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 77/2001 [18:39<7:07:15, 13.32s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 78/2001 [18:39<7:06:58, 13.32s/it]At epoch     77 : train loss: 11.1902, val loss: 16.4897
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 78/2001 [18:53<7:06:58, 13.32s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 79/2001 [18:53<7:07:36, 13.35s/it]At epoch     78 : train loss: 11.7723, val loss: 18.1275
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 79/2001 [19:06<7:07:36, 13.35s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 80/2001 [19:06<7:06:38, 13.33s/it]
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 80/2001 [19:06<7:06:38, 13.33s/it]At epoch     79 : train loss: 11.2565, val loss: 16.2538
+renders RVS...
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 80/2001 [19:37<7:06:38, 13.33s/it]
+Best val loss: 13.0531[AAt epoch     80 : train loss: 12.1089, val loss: 17.3474
+epochs:   4%|▍         | 81/2001 [19:39<10:13:23, 19.17s/it]Median error 11.628425598144531m and 82.52301788330078 degrees.
+Mean error 12.76887097451594m and 91.86653461704006 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   4%|▍         | 81/2001 [19:52<10:13:23, 19.17s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 82/2001 [19:52<9:18:32, 17.46s/it] At epoch     81 : train loss: 13.8433, val loss: 14.8437
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 82/2001 [20:06<9:18:32, 17.46s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 83/2001 [20:06<8:38:39, 16.23s/it]At epoch     82 : train loss: 14.8941, val loss: 19.0058
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 83/2001 [20:19<8:38:39, 16.23s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 84/2001 [20:19<8:10:44, 15.36s/it]At epoch     83 : train loss: 12.6868, val loss: 16.7236
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 84/2001 [20:32<8:10:44, 15.36s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 85/2001 [20:32<7:51:10, 14.76s/it]At epoch     84 : train loss: 11.8796, val loss: 17.0275
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 85/2001 [20:46<7:51:10, 14.76s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 86/2001 [20:46<7:36:46, 14.31s/it]At epoch     85 : train loss: 10.3171, val loss: 16.5825
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 86/2001 [20:59<7:36:46, 14.31s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 87/2001 [20:59<7:28:39, 14.06s/it]At epoch     86 : train loss: 10.2402, val loss: 17.5731
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 87/2001 [21:12<7:28:39, 14.06s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 88/2001 [21:12<7:20:59, 13.83s/it]At epoch     87 : train loss: 10.1636, val loss: 17.4711
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 88/2001 [21:26<7:20:59, 13.83s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 89/2001 [21:26<7:17:29, 13.73s/it]At epoch     88 : train loss: 9.8283, val loss: 16.6979
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 89/2001 [21:40<7:17:29, 13.73s/it]
+Best val loss: 13.0531[Aepochs:   4%|▍         | 90/2001 [21:40<7:15:52, 13.69s/it]At epoch     89 : train loss: 9.4419, val loss: 17.9076
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   4%|▍         | 90/2001 [21:53<7:15:52, 13.69s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 91/2001 [21:53<7:13:11, 13.61s/it]At epoch     90 : train loss: 9.3330, val loss: 17.5708
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 91/2001 [22:06<7:13:11, 13.61s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 92/2001 [22:06<7:11:03, 13.55s/it]At epoch     91 : train loss: 8.5648, val loss: 17.2262
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 92/2001 [22:20<7:11:03, 13.55s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 93/2001 [22:20<7:08:51, 13.49s/it]At epoch     92 : train loss: 7.9456, val loss: 18.4733
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 93/2001 [22:33<7:08:51, 13.49s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 94/2001 [22:33<7:07:05, 13.44s/it]At epoch     93 : train loss: 9.1229, val loss: 16.5774
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 94/2001 [22:46<7:07:05, 13.44s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 95/2001 [22:46<7:05:24, 13.39s/it]At epoch     94 : train loss: 8.8808, val loss: 16.2584
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 95/2001 [23:00<7:05:24, 13.39s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 96/2001 [23:00<7:04:40, 13.38s/it]At epoch     95 : train loss: 8.3172, val loss: 16.5297
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 96/2001 [23:13<7:04:40, 13.38s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 97/2001 [23:13<7:03:51, 13.36s/it]At epoch     96 : train loss: 8.2051, val loss: 17.1992
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 97/2001 [23:26<7:03:51, 13.36s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 98/2001 [23:26<7:04:18, 13.38s/it]At epoch     97 : train loss: 9.4944, val loss: 16.0328
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 98/2001 [23:40<7:04:18, 13.38s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 99/2001 [23:40<7:05:15, 13.42s/it]At epoch     98 : train loss: 8.5233, val loss: 15.9238
+
+                      [A                                                           
+Best val loss: 13.0531[Aepochs:   5%|▍         | 99/2001 [23:53<7:05:15, 13.42s/it]
+Best val loss: 13.0531[Aepochs:   5%|▍         | 100/2001 [23:53<7:05:07, 13.42s/it]
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▍         | 100/2001 [23:53<7:05:07, 13.42s/it]At epoch     99 : train loss: 7.2245, val loss: 17.0663
+renders RVS...
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▍         | 100/2001 [24:24<7:05:07, 13.42s/it]
+Best val loss: 13.0531[AAt epoch    100 : train loss: 9.5915, val loss: 16.1902
+epochs:   5%|▌         | 101/2001 [24:26<10:11:32, 19.31s/it]Median error 11.925748825073242m and 88.84180450439453 degrees.
+Mean error 12.503671670888926m and 97.95592342723499 degrees.
+
+                      [A                                                             
+Best val loss: 13.0531[Aepochs:   5%|▌         | 101/2001 [24:40<10:11:32, 19.31s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 102/2001 [24:40<9:15:57, 17.57s/it] At epoch    101 : train loss: 10.2092, val loss: 14.8113
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 102/2001 [24:53<9:15:57, 17.57s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 103/2001 [24:53<8:37:24, 16.36s/it]At epoch    102 : train loss: 8.7385, val loss: 17.0171
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 103/2001 [25:07<8:37:24, 16.36s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 104/2001 [25:07<8:10:21, 15.51s/it]At epoch    103 : train loss: 7.6756, val loss: 15.4964
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 104/2001 [25:20<8:10:21, 15.51s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 105/2001 [25:20<7:50:16, 14.88s/it]At epoch    104 : train loss: 8.2019, val loss: 18.9725
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 105/2001 [25:34<7:50:16, 14.88s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 106/2001 [25:34<7:36:23, 14.45s/it]At epoch    105 : train loss: 7.8972, val loss: 16.7259
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 106/2001 [25:47<7:36:23, 14.45s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 107/2001 [25:47<7:25:21, 14.11s/it]At epoch    106 : train loss: 7.3659, val loss: 15.1347
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 107/2001 [26:00<7:25:21, 14.11s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 108/2001 [26:00<7:17:01, 13.85s/it]At epoch    107 : train loss: 7.3188, val loss: 16.6982
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 108/2001 [26:14<7:17:01, 13.85s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 109/2001 [26:14<7:13:30, 13.75s/it]At epoch    108 : train loss: 6.1329, val loss: 17.0710
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 109/2001 [26:27<7:13:30, 13.75s/it]
+Best val loss: 13.0531[Aepochs:   5%|▌         | 110/2001 [26:27<7:09:34, 13.63s/it]At epoch    109 : train loss: 6.6300, val loss: 16.1453
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   5%|▌         | 110/2001 [26:41<7:09:34, 13.63s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 111/2001 [26:41<7:07:11, 13.56s/it]At epoch    110 : train loss: 7.7090, val loss: 15.9771
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 111/2001 [26:54<7:07:11, 13.56s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 112/2001 [26:54<7:06:34, 13.55s/it]At epoch    111 : train loss: 7.2772, val loss: 15.9760
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 112/2001 [27:08<7:06:34, 13.55s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 113/2001 [27:08<7:06:45, 13.56s/it]At epoch    112 : train loss: 6.0795, val loss: 15.8186
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 113/2001 [27:21<7:06:45, 13.56s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 114/2001 [27:21<7:04:30, 13.50s/it]At epoch    113 : train loss: 6.0796, val loss: 16.4179
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 114/2001 [27:35<7:04:30, 13.50s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 115/2001 [27:35<7:03:26, 13.47s/it]At epoch    114 : train loss: 5.6557, val loss: 16.7589
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 115/2001 [27:48<7:03:26, 13.47s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 116/2001 [27:48<7:03:17, 13.47s/it]At epoch    115 : train loss: 6.2332, val loss: 16.6717
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 116/2001 [28:01<7:03:17, 13.47s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 117/2001 [28:01<7:02:58, 13.47s/it]At epoch    116 : train loss: 6.1330, val loss: 15.6668
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 117/2001 [28:15<7:02:58, 13.47s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 118/2001 [28:15<7:02:01, 13.45s/it]At epoch    117 : train loss: 5.4389, val loss: 17.0758
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 118/2001 [28:28<7:02:01, 13.45s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 119/2001 [28:28<7:02:35, 13.47s/it]At epoch    118 : train loss: 5.3507, val loss: 18.9733
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 119/2001 [28:42<7:02:35, 13.47s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 120/2001 [28:42<7:01:39, 13.45s/it]
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 120/2001 [28:42<7:01:39, 13.45s/it]At epoch    119 : train loss: 5.9471, val loss: 16.4850
+renders RVS...
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 120/2001 [29:13<7:01:39, 13.45s/it]
+Best val loss: 13.0531[AAt epoch    120 : train loss: 7.1732, val loss: 17.1263
+epochs:   6%|▌         | 121/2001 [29:15<10:02:46, 19.24s/it]Median error 12.258872032165527m and 87.69190979003906 degrees.
+Mean error 12.805334721292768m and 93.91458205433635 degrees.
+
+                      [A                                                             
+Best val loss: 13.0531[Aepochs:   6%|▌         | 121/2001 [29:28<10:02:46, 19.24s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 122/2001 [29:28<9:08:44, 17.52s/it] At epoch    121 : train loss: 6.4924, val loss: 17.5659
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 122/2001 [29:42<9:08:44, 17.52s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 123/2001 [29:42<8:30:36, 16.31s/it]At epoch    122 : train loss: 6.6710, val loss: 16.2051
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 123/2001 [29:55<8:30:36, 16.31s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 124/2001 [29:55<8:02:36, 15.43s/it]At epoch    123 : train loss: 6.3317, val loss: 20.5995
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 124/2001 [30:08<8:02:36, 15.43s/it]
+Best val loss: 13.0531[Aepochs:   6%|▌         | 125/2001 [30:08<7:43:42, 14.83s/it]At epoch    124 : train loss: 6.3577, val loss: 16.4367
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▌         | 125/2001 [30:22<7:43:42, 14.83s/it]
+Best val loss: 13.0531[Aepochs:   6%|▋         | 126/2001 [30:22<7:29:57, 14.40s/it]At epoch    125 : train loss: 5.6525, val loss: 16.0903
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▋         | 126/2001 [30:35<7:29:57, 14.40s/it]
+Best val loss: 13.0531[Aepochs:   6%|▋         | 127/2001 [30:35<7:19:40, 14.08s/it]At epoch    126 : train loss: 4.8958, val loss: 17.9213
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▋         | 127/2001 [30:48<7:19:40, 14.08s/it]
+Best val loss: 13.0531[Aepochs:   6%|▋         | 128/2001 [30:48<7:13:15, 13.88s/it]At epoch    127 : train loss: 4.6577, val loss: 16.1226
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▋         | 128/2001 [31:02<7:13:15, 13.88s/it]
+Best val loss: 13.0531[Aepochs:   6%|▋         | 129/2001 [31:02<7:09:05, 13.75s/it]At epoch    128 : train loss: 5.0463, val loss: 17.8983
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▋         | 129/2001 [31:15<7:09:05, 13.75s/it]
+Best val loss: 13.0531[Aepochs:   6%|▋         | 130/2001 [31:15<7:06:01, 13.66s/it]At epoch    129 : train loss: 5.0509, val loss: 16.4799
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   6%|▋         | 130/2001 [31:29<7:06:01, 13.66s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 131/2001 [31:29<7:03:34, 13.59s/it]At epoch    130 : train loss: 5.0253, val loss: 17.4565
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 131/2001 [31:42<7:03:34, 13.59s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 132/2001 [31:42<7:01:41, 13.54s/it]At epoch    131 : train loss: 5.2395, val loss: 16.1278
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 132/2001 [31:56<7:01:41, 13.54s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 133/2001 [31:56<6:59:02, 13.46s/it]At epoch    132 : train loss: 5.1169, val loss: 16.5268
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 133/2001 [32:09<6:59:02, 13.46s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 134/2001 [32:09<6:57:00, 13.40s/it]At epoch    133 : train loss: 4.0417, val loss: 15.6266
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 134/2001 [32:22<6:57:00, 13.40s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 135/2001 [32:22<6:57:16, 13.42s/it]At epoch    134 : train loss: 4.1790, val loss: 17.1315
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 135/2001 [32:36<6:57:16, 13.42s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 136/2001 [32:36<6:57:20, 13.43s/it]At epoch    135 : train loss: 4.6174, val loss: 14.6736
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 136/2001 [32:49<6:57:20, 13.43s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 137/2001 [32:49<6:56:53, 13.42s/it]At epoch    136 : train loss: 5.1436, val loss: 15.8873
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 137/2001 [33:02<6:56:53, 13.42s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 138/2001 [33:02<6:55:55, 13.40s/it]At epoch    137 : train loss: 4.7642, val loss: 16.3815
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 138/2001 [33:16<6:55:55, 13.40s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 139/2001 [33:16<6:55:13, 13.38s/it]At epoch    138 : train loss: 4.1001, val loss: 15.4320
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 139/2001 [33:29<6:55:13, 13.38s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 140/2001 [33:29<6:53:36, 13.33s/it]
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 140/2001 [33:29<6:53:36, 13.33s/it]At epoch    139 : train loss: 3.6500, val loss: 15.5550
+renders RVS...
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 140/2001 [34:00<6:53:36, 13.33s/it]
+Best val loss: 13.0531[AAt epoch    140 : train loss: 8.0012, val loss: 15.9803
+epochs:   7%|▋         | 141/2001 [34:02<9:57:25, 19.27s/it]Median error 11.407639503479004m and 92.02400207519531 degrees.
+Mean error 12.34049091013995m and 95.25073857740922 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 141/2001 [34:16<9:57:25, 19.27s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 142/2001 [34:16<9:03:17, 17.53s/it]At epoch    141 : train loss: 6.2682, val loss: 15.0563
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 142/2001 [34:29<9:03:17, 17.53s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 143/2001 [34:29<8:25:08, 16.31s/it]At epoch    142 : train loss: 5.5151, val loss: 15.1356
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 143/2001 [34:42<8:25:08, 16.31s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 144/2001 [34:42<7:57:25, 15.43s/it]At epoch    143 : train loss: 7.8558, val loss: 17.0335
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 144/2001 [34:56<7:57:25, 15.43s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 145/2001 [34:56<7:39:54, 14.87s/it]At epoch    144 : train loss: 5.9293, val loss: 18.5646
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 145/2001 [35:09<7:39:54, 14.87s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 146/2001 [35:09<7:26:11, 14.43s/it]At epoch    145 : train loss: 4.9789, val loss: 16.1413
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 146/2001 [35:23<7:26:11, 14.43s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 147/2001 [35:23<7:15:44, 14.10s/it]At epoch    146 : train loss: 5.0568, val loss: 17.3919
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 147/2001 [35:36<7:15:44, 14.10s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 148/2001 [35:36<7:08:39, 13.88s/it]At epoch    147 : train loss: 5.0202, val loss: 16.0320
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 148/2001 [35:49<7:08:39, 13.88s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 149/2001 [35:49<7:03:47, 13.73s/it]At epoch    148 : train loss: 4.9984, val loss: 15.5403
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 149/2001 [36:03<7:03:47, 13.73s/it]
+Best val loss: 13.0531[Aepochs:   7%|▋         | 150/2001 [36:03<7:02:34, 13.70s/it]At epoch    149 : train loss: 5.1601, val loss: 15.9648
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   7%|▋         | 150/2001 [36:17<7:02:34, 13.70s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 151/2001 [36:17<6:59:51, 13.62s/it]At epoch    150 : train loss: 4.4701, val loss: 16.3773
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 151/2001 [36:30<6:59:51, 13.62s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 152/2001 [36:30<6:58:02, 13.57s/it]At epoch    151 : train loss: 4.2493, val loss: 16.0076
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 152/2001 [36:43<6:58:02, 13.57s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 153/2001 [36:43<6:55:38, 13.49s/it]At epoch    152 : train loss: 5.9862, val loss: 15.5906
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 153/2001 [36:57<6:55:38, 13.49s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 154/2001 [36:57<6:55:31, 13.50s/it]At epoch    153 : train loss: 5.5994, val loss: 17.8009
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 154/2001 [37:10<6:55:31, 13.50s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 155/2001 [37:10<6:54:08, 13.46s/it]At epoch    154 : train loss: 4.6921, val loss: 16.6153
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 155/2001 [37:24<6:54:08, 13.46s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 156/2001 [37:24<6:54:00, 13.46s/it]At epoch    155 : train loss: 4.8421, val loss: 17.6915
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 156/2001 [37:37<6:54:00, 13.46s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 157/2001 [37:37<6:55:18, 13.51s/it]At epoch    156 : train loss: 4.8166, val loss: 16.0106
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 157/2001 [37:51<6:55:18, 13.51s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 158/2001 [37:51<6:55:39, 13.53s/it]At epoch    157 : train loss: 4.1554, val loss: 17.9364
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 158/2001 [38:04<6:55:39, 13.53s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 159/2001 [38:04<6:55:57, 13.55s/it]At epoch    158 : train loss: 3.8577, val loss: 17.9063
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 159/2001 [38:18<6:55:57, 13.55s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 160/2001 [38:18<6:54:38, 13.51s/it]
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 160/2001 [38:18<6:54:38, 13.51s/it]At epoch    159 : train loss: 3.2103, val loss: 15.4325
+renders RVS...
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 160/2001 [38:49<6:54:38, 13.51s/it]
+Best val loss: 13.0531[AAt epoch    160 : train loss: 5.4698, val loss: 15.7689
+epochs:   8%|▊         | 161/2001 [38:51<9:53:22, 19.35s/it]Median error 12.228602409362793m and 80.60971069335938 degrees.
+Mean error 12.189992364350852m and 92.99891111448214 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 161/2001 [39:04<9:53:22, 19.35s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 162/2001 [39:04<8:59:37, 17.61s/it]At epoch    161 : train loss: 4.6691, val loss: 16.8136
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 162/2001 [39:18<8:59:37, 17.61s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 163/2001 [39:18<8:19:36, 16.31s/it]At epoch    162 : train loss: 4.5592, val loss: 18.0206
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 163/2001 [39:31<8:19:36, 16.31s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 164/2001 [39:31<7:52:35, 15.44s/it]At epoch    163 : train loss: 4.2862, val loss: 16.6517
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 164/2001 [39:45<7:52:35, 15.44s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 165/2001 [39:45<7:34:59, 14.87s/it]At epoch    164 : train loss: 3.6496, val loss: 16.3084
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 165/2001 [39:58<7:34:59, 14.87s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 166/2001 [39:58<7:19:27, 14.37s/it]At epoch    165 : train loss: 3.3649, val loss: 17.6600
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 166/2001 [40:11<7:19:27, 14.37s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 167/2001 [40:11<7:09:18, 14.04s/it]At epoch    166 : train loss: 3.1194, val loss: 15.7657
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 167/2001 [40:24<7:09:18, 14.04s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 168/2001 [40:24<7:02:48, 13.84s/it]At epoch    167 : train loss: 2.7247, val loss: 16.8611
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 168/2001 [40:38<7:02:48, 13.84s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 169/2001 [40:38<6:59:55, 13.75s/it]At epoch    168 : train loss: 2.4974, val loss: 16.2972
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 169/2001 [40:52<6:59:55, 13.75s/it]
+Best val loss: 13.0531[Aepochs:   8%|▊         | 170/2001 [40:52<6:58:27, 13.71s/it]At epoch    169 : train loss: 2.5651, val loss: 17.3634
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   8%|▊         | 170/2001 [41:05<6:58:27, 13.71s/it]
+Best val loss: 13.0531[Aepochs:   9%|▊         | 171/2001 [41:05<6:54:01, 13.57s/it]At epoch    170 : train loss: 2.7402, val loss: 17.3141
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▊         | 171/2001 [41:18<6:54:01, 13.57s/it]
+Best val loss: 13.0531[Aepochs:   9%|▊         | 172/2001 [41:18<6:51:44, 13.51s/it]At epoch    171 : train loss: 3.3230, val loss: 15.7166
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▊         | 172/2001 [41:32<6:51:44, 13.51s/it]
+Best val loss: 13.0531[Aepochs:   9%|▊         | 173/2001 [41:32<6:50:53, 13.49s/it]At epoch    172 : train loss: 2.8252, val loss: 16.6781
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▊         | 173/2001 [41:45<6:50:53, 13.49s/it]
+Best val loss: 13.0531[Aepochs:   9%|▊         | 174/2001 [41:45<6:48:48, 13.43s/it]At epoch    173 : train loss: 2.6106, val loss: 16.7658
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▊         | 174/2001 [41:58<6:48:48, 13.43s/it]
+Best val loss: 13.0531[Aepochs:   9%|▊         | 175/2001 [41:58<6:48:15, 13.41s/it]At epoch    174 : train loss: 2.5535, val loss: 18.0927
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▊         | 175/2001 [42:12<6:48:15, 13.41s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 176/2001 [42:12<6:48:06, 13.42s/it]At epoch    175 : train loss: 2.7049, val loss: 17.7438
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 176/2001 [42:25<6:48:06, 13.42s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 177/2001 [42:25<6:49:42, 13.48s/it]At epoch    176 : train loss: 2.5731, val loss: 17.5139
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 177/2001 [42:39<6:49:42, 13.48s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 178/2001 [42:39<6:48:43, 13.45s/it]At epoch    177 : train loss: 3.0058, val loss: 16.9282
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 178/2001 [42:52<6:48:43, 13.45s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 179/2001 [42:52<6:48:39, 13.46s/it]At epoch    178 : train loss: 2.5871, val loss: 16.4136
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 179/2001 [43:06<6:48:39, 13.46s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 180/2001 [43:06<6:48:03, 13.45s/it]
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 180/2001 [43:06<6:48:03, 13.45s/it]At epoch    179 : train loss: 2.6001, val loss: 16.6158
+renders RVS...
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 180/2001 [43:36<6:48:03, 13.45s/it]
+Best val loss: 13.0531[AAt epoch    180 : train loss: 6.4869, val loss: 16.7266
+epochs:   9%|▉         | 181/2001 [43:38<9:43:51, 19.25s/it]Median error 12.108548164367676m and 92.01890563964844 degrees.
+Mean error 12.558250349837465m and 97.01933372794808 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 181/2001 [43:52<9:43:51, 19.25s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 182/2001 [43:52<8:51:31, 17.53s/it]At epoch    181 : train loss: 8.3473, val loss: 15.6863
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 182/2001 [44:05<8:51:31, 17.53s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 183/2001 [44:05<8:14:46, 16.33s/it]At epoch    182 : train loss: 6.5520, val loss: 16.2577
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 183/2001 [44:19<8:14:46, 16.33s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 184/2001 [44:19<7:48:28, 15.47s/it]At epoch    183 : train loss: 5.7289, val loss: 17.5016
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 184/2001 [44:32<7:48:28, 15.47s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 185/2001 [44:32<7:30:14, 14.88s/it]At epoch    184 : train loss: 4.3525, val loss: 17.1541
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 185/2001 [44:46<7:30:14, 14.88s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 186/2001 [44:46<7:17:31, 14.46s/it]At epoch    185 : train loss: 4.7471, val loss: 17.0635
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 186/2001 [44:59<7:17:31, 14.46s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 187/2001 [44:59<7:08:04, 14.16s/it]At epoch    186 : train loss: 3.8660, val loss: 16.4517
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 187/2001 [45:13<7:08:04, 14.16s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 188/2001 [45:13<7:01:23, 13.95s/it]At epoch    187 : train loss: 3.7073, val loss: 17.5999
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 188/2001 [45:26<7:01:23, 13.95s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 189/2001 [45:26<6:56:08, 13.78s/it]At epoch    188 : train loss: 3.0733, val loss: 16.3730
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 189/2001 [45:40<6:56:08, 13.78s/it]
+Best val loss: 13.0531[Aepochs:   9%|▉         | 190/2001 [45:40<6:52:48, 13.68s/it]At epoch    189 : train loss: 3.5071, val loss: 17.2634
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:   9%|▉         | 190/2001 [45:53<6:52:48, 13.68s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 191/2001 [45:53<6:50:48, 13.62s/it]At epoch    190 : train loss: 3.4400, val loss: 17.4935
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 191/2001 [46:07<6:50:48, 13.62s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 192/2001 [46:07<6:50:55, 13.63s/it]At epoch    191 : train loss: 3.2724, val loss: 17.6070
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 192/2001 [46:20<6:50:55, 13.63s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 193/2001 [46:20<6:49:08, 13.58s/it]At epoch    192 : train loss: 3.5094, val loss: 15.6429
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 193/2001 [46:34<6:49:08, 13.58s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 194/2001 [46:34<6:46:34, 13.50s/it]At epoch    193 : train loss: 2.7604, val loss: 16.6945
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 194/2001 [46:47<6:46:34, 13.50s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 195/2001 [46:47<6:45:53, 13.49s/it]At epoch    194 : train loss: 2.4128, val loss: 17.5084
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 195/2001 [47:01<6:45:53, 13.49s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 196/2001 [47:01<6:46:41, 13.52s/it]At epoch    195 : train loss: 3.6361, val loss: 17.1774
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 196/2001 [47:14<6:46:41, 13.52s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 197/2001 [47:14<6:45:58, 13.50s/it]At epoch    196 : train loss: 2.7746, val loss: 15.5881
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 197/2001 [47:28<6:45:58, 13.50s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 198/2001 [47:28<6:45:01, 13.48s/it]At epoch    197 : train loss: 4.6200, val loss: 16.3180
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 198/2001 [47:41<6:45:01, 13.48s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 199/2001 [47:41<6:43:30, 13.44s/it]At epoch    198 : train loss: 3.2246, val loss: 16.7776
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 199/2001 [47:54<6:43:30, 13.44s/it]
+Best val loss: 13.0531[Aepochs:  10%|▉         | 200/2001 [47:54<6:42:55, 13.42s/it]
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 200/2001 [47:54<6:42:55, 13.42s/it]At epoch    199 : train loss: 3.1909, val loss: 17.3291
+renders RVS...
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|▉         | 200/2001 [48:25<6:42:55, 13.42s/it]
+Best val loss: 13.0531[AAt epoch    200 : train loss: 6.1657, val loss: 15.1858
+epochs:  10%|█         | 201/2001 [48:27<9:38:56, 19.30s/it]Median error 12.245118141174316m and 91.69352722167969 degrees.
+Mean error 12.114426447199536m and 96.98508406304694 degrees.
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 201/2001 [48:41<9:38:56, 19.30s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 202/2001 [48:41<8:45:25, 17.52s/it]At epoch    201 : train loss: 5.8805, val loss: 16.3811
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 202/2001 [48:54<8:45:25, 17.52s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 203/2001 [48:54<8:08:28, 16.30s/it]At epoch    202 : train loss: 4.9376, val loss: 15.3535
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 203/2001 [49:08<8:08:28, 16.30s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 204/2001 [49:08<7:42:26, 15.44s/it]At epoch    203 : train loss: 4.8763, val loss: 15.3204
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 204/2001 [49:21<7:42:26, 15.44s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 205/2001 [49:21<7:24:18, 14.84s/it]At epoch    204 : train loss: 5.5137, val loss: 15.2737
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 205/2001 [49:34<7:24:18, 14.84s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 206/2001 [49:34<7:11:05, 14.41s/it]At epoch    205 : train loss: 4.1243, val loss: 17.8061
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 206/2001 [49:48<7:11:05, 14.41s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 207/2001 [49:48<7:02:45, 14.14s/it]At epoch    206 : train loss: 3.5448, val loss: 16.3502
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 207/2001 [50:01<7:02:45, 14.14s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 208/2001 [50:01<6:56:08, 13.93s/it]At epoch    207 : train loss: 3.1862, val loss: 16.1565
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 208/2001 [50:15<6:56:08, 13.93s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 209/2001 [50:15<6:51:02, 13.76s/it]At epoch    208 : train loss: 3.2308, val loss: 16.6058
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 209/2001 [50:28<6:51:02, 13.76s/it]
+Best val loss: 13.0531[Aepochs:  10%|█         | 210/2001 [50:28<6:47:12, 13.64s/it]At epoch    209 : train loss: 3.1482, val loss: 16.7668
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  10%|█         | 210/2001 [50:42<6:47:12, 13.64s/it]
+Best val loss: 13.0531[Aepochs:  11%|█         | 211/2001 [50:42<6:45:29, 13.59s/it]At epoch    210 : train loss: 3.6541, val loss: 17.0371
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  11%|█         | 211/2001 [50:55<6:45:29, 13.59s/it]
+Best val loss: 13.0531[Aepochs:  11%|█         | 212/2001 [50:55<6:42:32, 13.50s/it]At epoch    211 : train loss: 3.1721, val loss: 15.1822
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  11%|█         | 212/2001 [51:08<6:42:32, 13.50s/it]
+Best val loss: 13.0531[Aepochs:  11%|█         | 213/2001 [51:08<6:41:18, 13.47s/it]At epoch    212 : train loss: 3.5273, val loss: 15.8848
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  11%|█         | 213/2001 [51:21<6:41:18, 13.47s/it]
+Best val loss: 13.0531[Aepochs:  11%|█         | 214/2001 [51:21<6:38:26, 13.38s/it]At epoch    213 : train loss: 3.4448, val loss: 16.6465
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  11%|█         | 214/2001 [51:34<6:38:26, 13.38s/it]
+Best val loss: 13.0531[Aepochs:  11%|█         | 215/2001 [51:34<6:35:55, 13.30s/it]At epoch    214 : train loss: 3.7348, val loss: 18.2279
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  11%|█         | 215/2001 [51:48<6:35:55, 13.30s/it]
+Best val loss: 13.0531[Aepochs:  11%|█         | 216/2001 [51:48<6:33:30, 13.23s/it]At epoch    215 : train loss: 3.5896, val loss: 16.6518
+
+                      [A                                                            
+Best val loss: 13.0531[Aepochs:  11%|█         | 216/2001 [52:01<6:33:30, 13.23s/it]epochs:  11%|█         | 216/2001 [52:01<7:09:52, 14.45s/it]
+Best val loss: 13.0531
+At epoch    216 : train loss: 2.9160, val loss: 17.3644
+Early stopping

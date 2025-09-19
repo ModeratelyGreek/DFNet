@@ -1,11 +1,11 @@
-############################################### DFNet training DroneRace RVS Tight ###############################################
+############################################### DFNet Evaluation DroneRace RVS Tight ###############################################
 model_name=dfnet
 basedir=../logs/dronerace_rvs_tight
 expname=nerfh_rvs_tight
 datadir=../data/Cambridge/DroneRace
 dataset_type=Cambridge
 trainskip=1 # train
-testskip=39 # train
+testskip=1 # train
 df=4
 load_pose_avg_stats=False
 NeRFH=True
@@ -20,5 +20,5 @@ rvs_refresh_rate=20
 rvs_trans=0.2
 rvs_rotation=10
 d_max=0.2
-# pretrain_model_path = ../logs/dronerace/dfnet/checkpoint-0023-11.5880.pt # resuming from best checkpoint
-# eval=True # add this for eval
+pretrain_model_path = ../logs/dronerace_rvs_tight/dfnet/checkpoint-0038-12.8843.pt # best checkpoint
+eval=True # evaluation mode

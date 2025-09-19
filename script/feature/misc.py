@@ -52,19 +52,46 @@ def compute_error_in_q(args, dl, model, device, results, batch_size=1):
     predict_pose_list = []
     gt_pose_list = []
     ang_error_list = []
+    
+    # VRAM and timing monitoring variables
+    forward_pass_times = []
+    total_iteration_times = []
+    peak_vram_usage = []
+    
     i = 0
     for batch in dl:
+        # Start timing the entire iteration (including data transfer, inference, and post-processing)
+        torch.cuda.synchronize(device)  # Ensure all previous operations are complete
+        iteration_start_time = time.time()
+        
         if args.NeRFH:
             data, pose, img_idx = batch
         else:
             data, pose = batch
         data = data.to(device) # input
         pose = pose.reshape((batch_size,3,4)).numpy() # label
+        
+        # Debug: Print batch info for first few iterations
+        if i < 3:
+            print(f"Batch {i}: data.shape = {data.shape}, batch_size = {batch_size}")
 
         if use_SVD:
             # using SVD to make sure predict rotation is normalized rotation matrix
             with torch.no_grad():
+                # Reset peak memory stats and time just the model inference
+                torch.cuda.reset_peak_memory_stats(device)
+                torch.cuda.synchronize(device)
+                inference_start_time = time.time()
+                
                 _, predict_pose = model(data)
+                
+                # Synchronize and measure inference time
+                torch.cuda.synchronize(device)
+                inference_time = time.time() - inference_start_time
+                peak_memory = torch.cuda.max_memory_allocated(device) / (1024**3)  # Convert to GB
+                forward_pass_times.append(inference_time)
+                peak_vram_usage.append(peak_memory)
+                
                 R_torch = predict_pose.reshape((batch_size, 3, 4))[:,:3,:3] # debug
                 predict_pose = predict_pose.reshape((batch_size, 3, 4)).cpu().numpy()
 
@@ -76,12 +103,22 @@ def compute_error_in_q(args, dl, model, device, results, batch_size=1):
                 Rs = torch.matmul(u, v.transpose(-2,-1))
             predict_pose[:,:3,:3] = Rs[:,:3,:3].cpu().numpy()
         else:
-            start_time = time.time()
+            # Reset peak memory stats and time just the model inference
+            torch.cuda.reset_peak_memory_stats(device)
+            torch.cuda.synchronize(device)
+            inference_start_time = time.time()
             # inference NN
             with torch.no_grad():
                 predict_pose = model(data)
                 predict_pose = predict_pose.reshape((batch_size, 3, 4)).cpu().numpy()
-            time_spent.append(time.time() - start_time)
+            
+            # Synchronize and measure inference time
+            torch.cuda.synchronize(device)
+            inference_time = time.time() - inference_start_time
+            peak_memory = torch.cuda.max_memory_allocated(device) / (1024**3)  # Convert to GB
+            forward_pass_times.append(inference_time)
+            peak_vram_usage.append(peak_memory)
+            time_spent.append(inference_time)
 
         pose_q = transforms.matrix_to_quaternion(torch.Tensor(pose[:,:3,:3]))#.cpu().numpy() # gnd truth in quaternion
         pose_x = pose[:, :3, 3] # gnd truth position
@@ -106,7 +143,49 @@ def compute_error_in_q(args, dl, model, device, results, batch_size=1):
         predict_pose_list.append(predicted_x)
         gt_pose_list.append(pose_x)
         ang_error_list.append(theta)
+        
+        # Measure total iteration time (including all post-processing)
+        torch.cuda.synchronize(device)
+        total_iteration_time = time.time() - iteration_start_time
+        total_iteration_times.append(total_iteration_time)
+        
         i += 1
+        print(i)
+    
+    # Print VRAM and timing statistics
+    if forward_pass_times and total_iteration_times:
+        # Model inference timing (GPU only)
+        avg_inference_time = np.mean(forward_pass_times)
+        max_inference_time = np.max(forward_pass_times)
+        min_inference_time = np.min(forward_pass_times)
+        
+        # Total iteration timing (includes data transfer, post-processing, etc.)
+        avg_total_time = np.mean(total_iteration_times)
+        max_total_time = np.max(total_iteration_times)
+        min_total_time = np.min(total_iteration_times)
+        
+        print(f"\n=== Forward Pass Performance ===")
+        print(f"Model inference only - Average: {avg_inference_time*1000:.2f}ms, Min: {min_inference_time*1000:.2f}ms, Max: {max_inference_time*1000:.2f}ms")
+        print(f"Total iteration time - Average: {avg_total_time*1000:.2f}ms, Min: {min_total_time*1000:.2f}ms, Max: {max_total_time*1000:.2f}ms")
+        print(f"Processing overhead:   {(avg_total_time - avg_inference_time)*1000:.2f}ms ({((avg_total_time - avg_inference_time)/avg_total_time)*100:.1f}% of total time)")
+        
+        # Estimate total runtime
+        total_samples = len(forward_pass_times)
+        estimated_total_runtime = avg_total_time * total_samples
+        print(f"Total samples: {total_samples}, Estimated runtime: {estimated_total_runtime:.1f}s ({estimated_total_runtime/60:.1f}min)")
+        
+    if peak_vram_usage:
+        avg_vram = np.mean(peak_vram_usage)
+        max_vram = np.max(peak_vram_usage)
+        min_vram = np.min(peak_vram_usage)
+        print(f"Peak VRAM usage - Average: {avg_vram:.3f}GB, Min: {min_vram:.3f}GB, Max: {max_vram:.3f}GB")
+        print(f"=== End Performance Stats ===\n")
+    
+    if not forward_pass_times:
+        print("WARNING: No forward pass timing data collected!")
+    if not total_iteration_times:
+        print("WARNING: No total iteration timing data collected!")
+    
     predict_pose_list = np.array(predict_pose_list)
     gt_pose_list = np.array(gt_pose_list)
     ang_error_list = np.array(ang_error_list)
